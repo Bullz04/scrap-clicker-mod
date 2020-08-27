@@ -1,0 +1,75 @@
+body {
+    background : #98ff95;
+}
+
+.bigger1 {
+    color : #1f75ff;
+    border : none;
+    font-size : 27px;
+}
+
+
+
+.bigger2 {
+    color : #1f75ff;
+    border : none;
+    font-size : 22px;
+}
+
+.biggerGold1 {
+    color : #a8c500;
+    border : none;
+    font-size : 27px;
+}
+
+.biggerGold2 {
+    color : #a8c500;
+    border : none;
+    font-size : 22px;
+}
+
+/*Text Barrier*/
+
+.buttonUpgrade {
+    width : 162px;
+    height: 120px;
+
+}
+
+.buttonTab {
+    font-size : 29px;
+    border-radius: 10px;
+    color : #000000;
+    background-color : #ffffff;
+    transition-duration : 0.25s;
+}
+
+.buttonTab1 {
+    color : #94ff88;
+    background-color : #13b900;
+}
+
+.buttonTab1:hover {
+    background-color : #94ff88;
+    color : #13b900;
+}
+
+.buttonTab2 {
+    color : #eeff00;
+    background-color : #98a300;
+}
+
+.buttonTab2:hover {
+    background-color : #eeff00;
+    color : #98a300;
+}
+
+.buttonTab3 {
+    color : #cccccc;
+    background-color : #5f5f5f;
+}
+
+.buttonTab3:hover {
+    background-color : #cccccc;
+    color : #5f5f5f;
+}

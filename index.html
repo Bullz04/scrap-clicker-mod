@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Yeetudscihcdwucdhudcuhdc</title>
+</head>
+<body>
+    <button id="productionTab" class="buttonTab buttonTab1" onclick="tab('production')">Production</button>
+    <button id="prestigeTab" class="buttonTab buttonTab2" onclick="tab('prestige')">Prestige</button>
+    <button id="settingsTab" class="buttonTab buttonTab3" onclick="tab('settings')">Settings</button>
+    <br>
+    <br>
+
+
+
+
+
+
+    <div id="production">
+        <div>You have <span id="ScrapAmount" class="bigger1">0</span> Scraps (+<span id="ScrapsPerSecond" class="bigger2">0</span>/s)</div>
+        <div>You have <span id="FactoryAmount" class="bigger2">0</span> factories</div>
+        <button onclick="clickScrap()" id="ScrapsPerClick">Gain<br>1 Scraps</button>
+        <br>
+        <button onclick="buyScrapBoost()" id="BuyScrapBoostDisplay">Boost your Scrap income by 3x<br>100 Scraps</button>
+        <br>
+        <button onclick="buyFactory()" id="BuyFactoryDisplay">Buy Factory<br>10 Scraps</button>
+    </div>
+
+    <div id="prestige">
+        <div>You have <span id="GoldenScrapDisplay" class="biggerGold1"></span> Golden Scraps, boosting your Scrap gain by +<span id="GoldenScrapDisplay2" class="biggerGold2"></span>%.</div><br>
+        <button onclick="subTab1('subPrestige1')">Golden Scraps</button>
+        <button onclick="subTab1('subPrestige2')">Upgrades</button>
+        <br>
+        <br>
+
+        <div id="subPrestige1">
+            <div>You will gain <span id="PendingGoldenScrapDisplay" class="biggerGold2"></span> Golden Scraps on next prestige.</div>
+            <div>Can't prestige until 1.00e3 pending Golden Scraps.</div><button onclick="goldenScrapPrestige()">Prestige</button>
+        </div>
+
+        <div id="subPrestige2">
+            <button class="buttonUpgrade">GET STICK BUGGED LOL</button>
+        </div>
+    </div>
+
+    <div id="settings">
+        <button onclick="save()">Save</button>
+        <button onclick="hardReset()">Hard Reset</button>
+    </div>
+
+
+</body>
+<script src="libraries/break_eternity.js"></script>
+<script src="saving.js"></script>
+<script src="tabSystem.js"></script>
+<script src="doNotOpenThisIsDangerous.js"></script>
+<script src="game.js"></script>
+</html>
